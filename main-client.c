@@ -29,7 +29,7 @@
 
 #ifndef USE_OPENSSL
 
-int main()
+int mainNoEsle()
 {
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     exit(0);
@@ -57,7 +57,7 @@ void report_help()
 
 
 
-int main(int argc, char **argv)
+int mainElse(int argc, char **argv)
 {
     int c, test_config = 0;
     #ifndef WIN32
