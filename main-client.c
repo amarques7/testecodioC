@@ -29,7 +29,7 @@
 
 #ifndef USE_OPENSSL
 
-int mainNoEsle()
+int main_ForaDoEsle()
 {
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     exit(0);
@@ -43,7 +43,7 @@ int mainNoEsle()
 
 
 
-void report_help()
+void report_help_DentroDoEsle()
 {
     printf("\nOSSEC HIDS %s: Connects to the manager to extract the agent key.\n", ARGV0);
     printf("Available options:\n");
@@ -57,7 +57,7 @@ void report_help()
 
 
 
-int mainElse(int argc, char **argv)
+int main_DentroDoEsle(int argc, char **argv)
 {
     int c, test_config = 0;
     #ifndef WIN32
