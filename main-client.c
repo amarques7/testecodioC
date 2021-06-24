@@ -81,7 +81,7 @@ int main_DentroDoEsle(int argc, char **argv)
     bio_err = 0;
     buf[2048] = '\0';
 
-
+    fopen();
     /* Setting the name */
     OS_SetName(ARGV0);
 
@@ -350,7 +350,7 @@ int main_DentroDoEsle(int argc, char **argv)
     /* Shutdown the socket */
     SSL_CTX_free(ctx);
     close(sock);
-
+    fclose();
     exit(0);
 }
 
