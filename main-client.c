@@ -31,13 +31,14 @@
 
 int main_ForaDoEsle()
 {
+#ifndef TESTE_MEU
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
-#else
     exit(0);
+#endif
 }
 
 
-
+#else
 
 #include <openssl/ssl.h>
 #include "auth.h"
