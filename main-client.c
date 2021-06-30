@@ -41,6 +41,13 @@ int main_ForaDoEsle()
 int main_DentroDoElse()
 {
     printf("dsfasfa");
+
+#ifndef TESTE_MEU
+    printf("sdfsklfslkf");
+#endif
+    printf("dsfasfa");
+
 }
+
 #endif
 /* EOF */
