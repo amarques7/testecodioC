@@ -44,6 +44,8 @@ int main_DentroDoElse()
 
 #ifndef TESTE_MEU
     printf("sdfsklfslkf");
+#else
+    printf("fsadfsas");
 #endif
     printf("dsfasfa");
 
