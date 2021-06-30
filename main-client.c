@@ -30,15 +30,17 @@
 #ifndef USE_OPENSSL
 
 int main_ForaDoEsle()
-{
-    printf("ERROR: Not compiled. Missing OpenSSL support.\n");
-    printf("fundeu....");
+{ 
+    printf("ERROR: Not compiled. Missing OpenSSL support.\n");   
+    printf("sfdsaf....");
     exit(0);
 
-    #ifndef TESTE_MEU_ForaElse
-    printf("sdfsklfslkf");  
+    #ifndef TESTE_MEU_ForaElse  
+
+    printf("sdfsklfslkf"); 
+
 #else
-    exit("fsadfsas"); 
+    exit("fsadfsas");  
 #endif
 
 }
