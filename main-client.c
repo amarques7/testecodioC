@@ -34,8 +34,13 @@ int main_ForaDoEsle()
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     printf("fundeu....");
     exit(0);
+
 }
 
-
+#else
+int main_DentroDoElse()
+{
+    printf("dsfasfa");
+}
 #endif
 /* EOF */
