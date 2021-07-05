@@ -1,6 +1,6 @@
 #include "shared.h"
 
-#ifndef USE_OPENSSL
+#ifdef USE_OPENSSL
 
 int main_ForaDoEsle()
 {
@@ -11,7 +11,7 @@ int main_ForaDoEsle()
     printf("fdfa");
     open("fasdf.tx");
 #else
-print("asdfasfa");
+print("asdfasfa"); (!def(USE_OPENSSL)&def(USE_PPPPP)&(def(USE_PPPPP)|def(USE_OPENSSL)))
 close("dafsd.tx");
 #endif
  }  
