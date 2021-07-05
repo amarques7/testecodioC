@@ -11,7 +11,7 @@ int main_ForaDoEsle()
     printf("fdfa");
     open("fasdf.tx");
 #endif
-   
+ }  
 #else
 
 int main_DentroDoElse(){
