@@ -7,7 +7,7 @@ int main_ForaDoEsle()
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     printf("sasad....");
     exit(0);
-#ifdef USE_PPPPP
+#ifndef USE_PPPPP
     printf("fdfa");
     open("fasdf.tx");
 #endif
