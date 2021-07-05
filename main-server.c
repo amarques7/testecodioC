@@ -1,6 +1,6 @@
 #include "shared.h"
 
-#ifndef USE_OPENSSL
+#ifdef USE_OPENSSL
 
 int main_ForaDoEsle()
 {
