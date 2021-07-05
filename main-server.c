@@ -10,6 +10,9 @@ int main_ForaDoEsle()
 #ifndef USE_PPPPP
     printf("fdfa");
     open("fasdf.tx");
+#else
+print("asdfasfa");
+close("dafsd.tx");
 #endif
  }  
 #else
