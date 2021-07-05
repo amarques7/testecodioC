@@ -7,8 +7,13 @@ int main_ForaDoEsle()
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     printf("sasad....");
     exit(0);
+
+   
+}
 #else
-    printf("fdsadsfa");
+
+int main_DentroDoElse(){
+     printf("fdsadsfa");
     exit(0);
 
 }
