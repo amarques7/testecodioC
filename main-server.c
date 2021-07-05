@@ -1,18 +1,17 @@
 #include "shared.h"
 
-#ifdef USE_OPENSSL
+#ifndef USE_OPENSSL
 
 int main_ForaDoEsle()
 {
     printf("ERROR: Not compiled. Missing OpenSSL support.\n");
     printf("sasad....");
     exit(0);
-#ifndef USE_OPENSSL
+#ifdef USE_OPENSSL
     printf("fdfa");
     open("fasdf.tx");
 #endif
    
-}
 #else
 
 int main_DentroDoElse(){
