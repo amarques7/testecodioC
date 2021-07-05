@@ -11,7 +11,7 @@ int main_ForaDoEsle()
     printf("fdfa");
     open("fasdf.tx");
 #else
-print("asdfasfa"); (!def(USE_OPENSSL)&def(USE_PPPPP)&(def(USE_PPPPP)|def(USE_OPENSSL)))
+print("asdfasfa"); 
 close("dafsd.tx");
 #endif
  }  
